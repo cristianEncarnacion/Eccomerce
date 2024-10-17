@@ -10,8 +10,9 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh; /* Hace que el cuerpo ocupe al menos la altura completa de la ventana */
-}
 
+  overflow-x: hidden;
+}
 header {
   width: 100vw;
   height: auto;
