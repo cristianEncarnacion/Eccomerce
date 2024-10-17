@@ -1,0 +1,200 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+body {
+  background-color: rgba(233, 231, 231, 0.801);
+  /* Configuración general para el diseño de la página */
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Hace que el cuerpo ocupe al menos la altura completa de la ventana */
+}
+
+header {
+  width: 100vw;
+  height: auto;
+  background-color: black;
+  color: white;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  width: 90%;
+  margin: 100px auto;
+  background-color: white;
+  padding-bottom: 40px;
+  flex: 1;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.item {
+  width: 250px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px black;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+.precio-boton {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 7px;
+}
+
+.descripcion {
+  margin: 7px 7px;
+}
+#icono {
+  width: 50px;
+  height: 50px;
+}
+
+input {
+  border: 1px solid white;
+  height: 15px;
+  width: 300px;
+  background-color: rgb(70, 69, 69);
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 15px;
+
+  border-radius: 25%;
+}
+
+.contenedor-global {
+  padding: 10px;
+}
+h4 {
+  height: 30px;
+  max-height: 40px;
+}
+h5 {
+  height: 40px;
+}
+
+aside {
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+  float: right;
+  height: 100%; /* Ocupa toda la altura de la ventana */
+  background-color: rgba(255, 255, 255, 0.61);
+  width: 300px;
+  position: fixed;
+  right: 0;
+  top: 70px;
+  backdrop-filter: blur(5px);
+  z-index: 1;
+  overflow-y: auto; /* Permite el desplazamiento vertical */
+  scrollbar-width: thin; /* Opcional: ajusta el ancho de la barra de desplazamiento */
+  padding: 70px; /* Ajusta el padding según sea necesario */
+  box-sizing: border-box;
+}
+
+aside.show {
+  transform: translateX(0);
+  transition: transform 0.3s ease;
+}
+
+.sidebar-item {
+  width: 200px;
+
+  margin: 10px auto;
+  border-bottom: 1px solid gray;
+  padding: 10px;
+}
+
+.contador-carrito {
+  position: relative;
+}
+
+#contador {
+  position: absolute;
+  background-color: red;
+  border-radius: 10px;
+  padding: 5px;
+  top: 0;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+}
+
+.creado {
+  padding: 10px;
+}
+a {
+  padding: 10px 0px 0 0px;
+  text-decoration: none;
+  color: white;
+  margin: 0 5px 0 5px;
+}
+a:hover {
+  opacity: 0.9;
+  border-bottom: 1px solid white;
+}
+
+@media screen and (max-width: 460px) {
+  .header {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  h1 {
+    text-align: center;
+  }
+  input {
+    margin: 15px;
+  }
+  .contador-carrito {
+    margin: auto;
+  }
+  main {
+    padding-top: 100px;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px 10px 5px;
+  }
+}
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+  width: 100%;
+}
+
+@media screen and (max-width: 400px) {
+  .board {
+    display: block;
+    margin-top: 10px;
+  }
+}

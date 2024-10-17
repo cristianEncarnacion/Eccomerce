@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "titulo": "Camiseta de algodón",
+    "descripcion": "Camiseta de algodón 100% para hombre, disponible en varios colores.",
+    "precio": 19.99,
+    "imagen": "https://i.ebayimg.com/thumbs/images/g/EoEAAOSwzG5h-exD/s-l1200.jpg"
+  },
+  {
+    "id": 2,
+    "titulo": "Zapatillas deportivas",
+    "descripcion": "Zapatillas deportivas para correr, ligeras y transpirables.",
+    "precio": 49.99,
+    "imagen": "https://media2.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/z/a/zapatillas-running-adidas-runfalcon-3-0-negra-90497022-100010hq3790001-1.jpg"
+  },
+  {
+    "id": 3,
+    "titulo": "Reloj digital",
+    "descripcion": "Reloj digital con pantalla táctil y múltiples funciones.",
+    "precio": 29.99,
+    "imagen": "https://i.ebayimg.com/thumbs/images/g/up0AAOSwbUtkCY3x/s-l1200.jpg"
+  },
+  {
+    "id": 4,
+    "titulo": "Auriculares inalámbricos",
+    "descripcion": "Auriculares Bluetooth con cancelación de ruido.",
+    "precio": 59.99,
+    "imagen": "https://sony.scene7.com/is/image/sonyglobalsolutions/Product%20primary%20image-1?$categorypdpnav$&fmt=png-alpha"
+  },
+  {
+    "id": 5,
+    "titulo": "Mochila impermeable",
+    "descripcion": "Mochila impermeable de gran capacidad, ideal para viajes.",
+    "precio": 39.99,
+    "imagen": "https://i.ebayimg.com/thumbs/images/g/EV8AAOSwS2tlbiQb/s-l1200.jpg"
+  },
+  {
+    "id": 6,
+    "titulo": "Libro de cocina",
+    "descripcion": "Libro de recetas de cocina internacional con más de 200 recetas.",
+    "precio": 24.99,
+    "imagen": "https://grupolavid.com/cdn/shop/products/LICNI1__2_1200x1200.jpg?v=1595011985"
+  },
+  {
+    "id": 7,
+    "titulo": "Lámpara de escritorio",
+    "descripcion": "Lámpara LED ajustable con luz cálida y fría.",
+    "precio": 14.99,
+    "imagen": "https://i.ebayimg.com/thumbs/images/g/FacAAOSw6vpmflAk/s-l1200.jpg"
+  },
+  {
+    "id": 8,
+    "titulo": "Botella de agua",
+    "descripcion": "Botella de agua de acero inoxidable, mantiene las bebidas frías o calientes.",
+    "precio": 12.99,
+    "imagen": "https://i.ebayimg.com/thumbs/images/g/kWQAAOSwxp1mUXII/s-l1200.jpg"
+  },
+  {
+    "id": 9,
+    "titulo": "Cargador portátil",
+    "descripcion": "Power bank de alta capacidad para cargar dispositivos móviles.",
+    "precio": 34.99,
+    "imagen": "https://f.fcdn.app/imgs/e4760d/www.tiendascorripio.com.do/corrdo/7cb6/original/catalogo/CA-AWPBF100_001_1/1920-1200/cargador-portatil-10-000-mah-001.jpg"
+  },
+  {
+    "id": 10,
+    "titulo": "Cafetera de cápsulas",
+    "descripcion": "Cafetera de cápsulas para preparar café de manera rápida y fácil.",
+    "precio": 79.99,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAup2ffj-sWbytKd-lF1AI1dbNbn_6gzpmRQ&s"
+  },
+  {
+    "id": 11,
+    "titulo": "Planta decorativa",
+    "descripcion": "Planta artificial para decoración de interiores, no requiere mantenimiento.",
+    "precio": 17.99,
+    "imagen": "https://foly.com.mx/cdn/shop/products/muebles-casa-figura-decorativa-plantas-decorativas-planta-maceta-decorativa-Poza-Rica-sku-14-VA-0886-foly-muebles-foto-01.jpg?v=1646099099"
+  },
+  {
+    "id": 12,
+    "titulo": "Teclado mecánico",
+    "descripcion": "Teclado mecánico retroiluminado para juegos y trabajo.",
+    "precio": 69.99,
+    "imagen": "https://rinconcitogamer.com/wp-content/uploads/2023/08/image_2023-08-17_022957962.png"
+  }
+]
